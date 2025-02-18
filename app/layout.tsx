@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
-import { SITENAME } from "@/lib/constants";
 import { ThemeProvider } from "@/components/theme-provider";
+import { SITENAME } from "@/lib/constants";
 
 const font = Nunito({ subsets: ["latin"] });
 
@@ -44,7 +44,7 @@ export default function RootLayout({
             "name":"admin",
             "url":"https://bokepgaya.pages.dev"
             },
-            "foundingDate":"2024-04-09"
+            "foundingDate":"2025-02-17"
         }
         const jsonLd2 = {
             "@context": "https://schema.org",
